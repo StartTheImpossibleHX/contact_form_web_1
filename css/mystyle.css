@@ -1,6 +1,21 @@
 
+.main-navigation>div {
+    display: none;
+}
+
+@media only screen and (min-width: 560px) {
+    .main-navigation>div {
+        display: inline-block;
+    }
+}
+
 /* Styling for the main-navitation */
 
 .main-navigation {
     color: var(--wp--preset--color--foreground);
+}
+
+
+:root {
+--wp--preset--color--foreground:#303030;
 }
